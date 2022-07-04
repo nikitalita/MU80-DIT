@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "akm")(type "KiCad")(uri "${KIPRJMOD}/akm.kicad_sym")(options "")(descr ""))
+  (lib (name "mbialon")(type "KiCad")(uri "${KIPRJMOD}/mbialon.kicad_sym")(options "")(descr ""))
+  (lib (name "selfmade")(type "KiCad")(uri "${KIPRJMOD}/selfmade.kicad_sym")(options "")(descr ""))
+  (lib (name "MC14557B")(type "KiCad")(uri "${KIPRJMOD}/MC14557BCPG.kicad_sym")(options "")(descr ""))
+  (lib (name "WM8804")(type "KiCad")(uri "${KIPRJMOD}/WM8804/eec.kicad_sym")(options "")(descr ""))
+  (lib (name "74FST3257")(type "KiCad")(uri "${KIPRJMOD}/74FST3257/eec.kicad_sym")(options "")(descr ""))
+  (lib (name "74AHC164PW")(type "KiCad")(uri "${KIPRJMOD}/74AHC164PW/74AHC164PW_118.kicad_sym")(options "")(descr ""))
+  (lib (name "SHIFTREGISTER")(type "KiCad")(uri "${KIPRJMOD}/lib/SHIFTREGISTER.kicad_sym")(options "")(descr ""))
+  (lib (name "74HC74D_653")(type "KiCad")(uri "${KIPRJMOD}/lib/74HC74D_653.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Cirrus Logic Inc. WM8804
+#
+DEF WM8804 U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "WM8804" 0 300 50 H V L CNN 
+F2 "Cirrus_Logic_Inc.-WM8804-*" 0 400 50 H I L CNN 
+F3 "https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/WM8804_v4.5.pdf" 0 500 50 H I L CNN 
+F4 "Audio Transceiver" 0 600 50 H I L CNN "Function"
+F5 "I²S" 0 700 50 H I L CNN "Interface"
+F6 "1" 0 800 50 H I L CNN "Number of Channels"
+F7 "IC" 0 900 50 H I L CNN "category"
+F8 "IC TXRX S/PDIF 1:1 DGTL 20SSOP" 0 1000 50 H I L CNN "digikey description"
+F9 "WM8804GEDS/RVCT-ND" 0 1100 50 H I L CNN "digikey part number"
+F10 "yes" 0 1200 50 H I L CNN "lead free"
+F11 "95a57baacb04e697" 0 1300 50 H I L CNN "library id"
+F12 "Cirrus Logic Inc." 0 1400 50 H I L CNN "manufacturer"
+F13 "238-WM8804GEDS/V" 0 1500 50 H I L CNN "mouser part number"
+F14 "SSOP20" 0 1600 50 H I L CNN "package"
+F15 "yes" 0 1700 50 H I L CNN "rohs"
+F16 "+85°C" 0 1800 50 H I L CNN "temperature range high"
+F17 "-40°C" 0 1900 50 H I L CNN "temperature range low"
+DRAW
+X DVDD 19 100 0 100 R 40 40 1 1 W 
+X PVDD 7 100 -100 100 R 40 40 1 1 W 
+X ~CS~/GPO1 5 1700 -300 100 L 40 40 1 1 B 
+X ~RESET~ 6 100 -800 100 R 40 40 1 1 I 
+X BCLK 14 100 -1000 100 R 40 40 1 1 B 
+X CLKOUT 9 1700 -1100 100 L 40 40 1 1 O 
+X DIN 13 1700 -800 100 L 40 40 1 1 I 
+X DOUT 12 1700 -700 100 L 40 40 1 1 O 
+X GPO0/SWIFMODE 2 1700 -500 100 L 40 40 1 1 B 
+X LRCLK 15 100 -1100 100 R 40 40 1 1 B 
+X MCLK 16 1700 -1000 100 L 40 40 1 1 B 
+X RX0 20 100 -600 100 R 40 40 1 1 I 
+X SCLK 1 1700 -200 100 L 40 40 1 1 B 
+X SDIN/HWMODE 3 1700 -100 100 L 40 40 1 1 I 
+X SDOUT/GPO2 4 1700 0 100 L 40 40 1 1 B 
+X TX0 17 1700 -1300 100 L 40 40 1 1 O 
+X XIN 11 100 -300 100 R 40 40 1 1 I 
+X XOP 10 100 -400 100 R 40 40 1 1 O 
+X DGND 18 1700 -1500 100 L 40 40 1 1 W 
+X PGND 8 1700 -1600 100 L 40 40 1 1 W 
+S 200 100 1600 -1700 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
