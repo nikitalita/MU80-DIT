@@ -2221,7 +2221,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e9ecf0cb-ce8c-4426-a520-b03e079cae72)
     (property "Reference" "U5" (id 0) (at 105.41 45.72 0))
-    (property "Value" "74HCT74D" (id 1) (at 105.41 48.26 0))
+    (property "Value" "SN74HCT74" (id 1) (at 105.41 48.26 0))
     (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (id 2) (at 133.51 100.92 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
@@ -2550,7 +2550,7 @@
       (reference "U4") (unit 1) (value "74HCT7731") (footprint "")
     )
     (path "/e9ecf0cb-ce8c-4426-a520-b03e079cae72"
-      (reference "U5") (unit 1) (value "74HCT74D") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
+      (reference "U5") (unit 1) (value "SN74HCT74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/cbb89bd7-29b1-418d-bb17-a5e078b16f28"
       (reference "U?") (unit 1) (value "AK4103A") (footprint "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm")
